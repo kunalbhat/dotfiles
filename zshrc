@@ -9,16 +9,6 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-# dscout Path Alias
-alias dscout="cd ~/Work/dscout/"
-alias dscout-ios="cd ~/Work/dscout-iphone/"
-alias dscout-web="cd ~/Work/dscout-web/"
-
-# dscovr path alias
-alias dscovr="cd ~/Work/dscovr/"
-alias dscovr-ios="cd ~/Work/dscovr-ios/"
-alias dscovr-web="cd ~/Work/dscovr-web/"
-
 # grunt
 export PATH=/usr/local/share/npm/bin:$PATH
 

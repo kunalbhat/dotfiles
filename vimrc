@@ -52,6 +52,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'scrooloose/nerdcommenter'
 
 " syntax
+Bundle 'othree/html5.vim'
 Bundle 'davidoc/taskpaper.vim'
 Bundle 'nono/vim-handlebars'
 Bundle 'tpope/vim-markdown'
