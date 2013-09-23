@@ -1,5 +1,4 @@
 # Dotfiles
-========
 
 Standard dotfiles. Installation instructions below.
 
