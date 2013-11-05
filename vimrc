@@ -47,7 +47,6 @@ Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-abolish'
 
 " insert/visual mode
-Bundle 'Valloric/YouCompleteMe'
 Bundle 'tpope/vim-surround'
 Bundle 'scrooloose/nerdcommenter'
 
