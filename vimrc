@@ -96,7 +96,7 @@ colorscheme base16-tomorrow
 " Force hamstache syntax highlighting
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 au Bufread,BufNewFile *.hamstache set filetype=haml
-
+au Bufread,BufNewFile *.hbs set filetype=html
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Search
