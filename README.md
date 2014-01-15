@@ -1,6 +1,6 @@
 # Dotfiles
 
-My standard dotfiles, most notably `ackrc`, `.gitconfig`, `vimrc`, and `zshrc`.
+My standard dotfiles, most notably `ackrc`, `gitconfig`, `vimrc`, and `zshrc`.
 
 ## Installation
 
