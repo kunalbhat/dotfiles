@@ -89,8 +89,7 @@ let mapleader=" "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 syntax on
-set background=dark
-colorscheme base16-tomorrow
+colorscheme Tomorrow-Night
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Force hamstache syntax highlighting
