@@ -94,8 +94,9 @@ colorscheme Tomorrow-Night
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Force hamstache syntax highlighting
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-au Bufread,BufNewFile *.hamstache set filetype=haml
-au Bufread,BufNewFile *.hbs set filetype=html
+au BufRead,BufNewFile *.hamstache setf=haml
+au BufRead,BufNewFile *.hbs       setf=html
+au BufRead,BufNewFile *.scss      setf sass
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Search
