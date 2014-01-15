@@ -96,7 +96,6 @@ colorscheme Tomorrow-Night
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 au BufRead,BufNewFile *.hamstache setf=haml
 au BufRead,BufNewFile *.hbs       setf=html
-au BufRead,BufNewFile *.scss      setf sass
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Search
