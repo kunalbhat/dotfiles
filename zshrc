@@ -37,3 +37,6 @@ bindkey '^n' history-substring-search-down
 
 # Alias for postgres and redis startup
 alias dss="memcached -d && pg_ctl start -D /usr/local/var/postgres && redis-server /usr/local/etc/redis.conf"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
