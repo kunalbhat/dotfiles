@@ -36,6 +36,7 @@ Bundle 'godlygeek/tabular'
 Bundle 'scrooloose/nerdtree'
 Bundle 'kien/ctrlp.vim'
 Bundle 'mileszs/ack.vim'
+Bundle 'ggreer/the_silver_searcher'
 
 " utilities
 Bundle 'sjl/gundo.vim'
