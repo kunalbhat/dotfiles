@@ -23,6 +23,8 @@ alias c="clear"
 # git
 alias gasp="git aa && git stash && git fetch && git rebase origin/master && git stash pop"
 alias gf="git fetch"
+alias gpo="git pull origin master"
+alias gr="git rebase origin/master"
 
 # vim key bindings
 set -o vi
@@ -40,3 +42,6 @@ alias dss="memcached -d && pg_ctl start -D /usr/local/var/postgres && redis-serv
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+### Start rails server
+alias rs="rails server"
