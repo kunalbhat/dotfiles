@@ -258,6 +258,8 @@ let NERDTreeWinPos = "right"
 let NERDTreeQuitOnOpen = 0
 
 " CtrlP
+map <Leader>r :CtrlP<CR>
+set wildignore+=*/.git/*,*/bower_components/**,*/node_modules/**,*/vendor/ruby/**,*/vendor/jruby/**,*/tmp/*,*/.*
 let g:ctrlp_match_window_reversed = 1
 
 " Tabularize
@@ -267,10 +269,6 @@ nmap <Leader>a> :Tab /=><CR>
 vmap <Leader>a> :Tab /=><CR>
 nmap <Leader>a: :Tab /:\zs<CR>
 vmap <Leader>a: :Tab /:\zs<CR>
-
-" CtrlP
-map <Leader>r :CtrlP<CR>
-set wildignore+=*/.git/*,**/vendor/ruby/**,**/bin/*,**/tmp/*,*/.*
 
 " Ack
 map <Leader>c :Ack<space>
