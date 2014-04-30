@@ -298,6 +298,13 @@ endfunction
 inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 inoremap <s-tab> <c-n>
 
+" Move between tabs
+nnoremap <S-H> gT " tab back
+nnoremap <S-L> gt " tab forward
+
+" quick jump to .vimrc
+nnoremap <leader>vi :vs $MYVIMRC<CR>
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Toggle Functions
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
