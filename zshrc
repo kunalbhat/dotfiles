@@ -23,8 +23,8 @@ alias c="clear"
 # git
 alias gasp="git aa && git stash && git fetch && git rebase origin/master && git stash pop"
 alias gf="git fetch"
-alias gpo="git pull origin master"
 alias gr="git rebase origin/master"
+alias gpo="git push origin master"
 
 # vim key bindings
 set -o vi
