@@ -61,6 +61,7 @@ Bundle 'vim-ruby/vim-ruby'
 Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'tpope/vim-haml'
 Bundle 'puppetlabs/puppet-syntax-vim'
+Bundle 'StanAngeloff/php.vim'
 
 filetype indent plugin on
 
