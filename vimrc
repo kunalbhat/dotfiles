@@ -34,13 +34,13 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'kien/ctrlp.vim'
 Bundle 'mileszs/ack.vim'
 Bundle 'ggreer/the_silver_searcher'
+Bundle 'rking/ag.vim'
 
 " utilities
 Bundle 'sjl/gundo.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-eunuch'
 Bundle 'rizzatti/funcoo.vim'
-Bundle 'rizzatti/dash.vim'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-abolish'
 
@@ -58,6 +58,7 @@ Bundle 'vim-ruby/vim-ruby'
 Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'tpope/vim-haml'
 Bundle 'puppetlabs/puppet-syntax-vim'
+Bundle 'hdima/python-syntax'
 
 filetype indent plugin on
 
