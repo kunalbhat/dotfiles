@@ -61,6 +61,7 @@ Bundle 'tpope/vim-haml'
 Bundle 'puppetlabs/puppet-syntax-vim'
 Bundle 'hdima/python-syntax'
 Bundle 'StanAngeloff/php.vim'
+Bundle 'lambdatoast/elm.vim'
 
 filetype indent plugin on
 
