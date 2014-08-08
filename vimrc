@@ -27,9 +27,6 @@ Bundle 'tomtom/tlib_vim'
 Bundle 'honza/vim-snippets'
 Bundle 'garbas/vim-snipmate'
 
-" snippets
-Bundle 'honza/vim-snippets'
-
 " navigation
 Bundle 'tpope/vim-rails'
 Bundle 'godlygeek/tabular'
