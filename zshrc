@@ -37,14 +37,8 @@ bindkey -M vicmd '?' history-incremental-search-backward
 bindkey '^p' history-substring-search-up
 bindkey '^n' history-substring-search-down
 
-# Alias for postgres and redis startup
-alias dss="memcached -d && pg_ctl start -D /usr/local/var/postgres && redis-server /usr/local/etc/redis.conf"
-
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
-
-# Start rails server
-alias rs="rails server"
 
 # Source env and npm server
 alias npmenv="source .env && npm start"
