@@ -44,5 +44,4 @@ export PATH="/usr/local/heroku/bin:$PATH"
 alias npmenv="source .env && npm start"
 
 # Open iOS simulator
-open /Applications/Xcode.app/Contents/Developer/Applications/iOS\ Simulator.app
-
+alias simulator="open /Applications/Xcode.app/Contents/Developer/Applications/iOS\ Simulator.app"
