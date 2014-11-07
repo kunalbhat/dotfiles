@@ -43,5 +43,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # Source env and npm server
 alias npmenv="source .env && npm start"
 
-# Python - default to Python 3
-alias python="python3"
+# Open iOS simulator
+open /Applications/Xcode.app/Contents/Developer/Applications/iOS\ Simulator.app
+
