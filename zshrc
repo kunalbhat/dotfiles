@@ -21,10 +21,7 @@ alias es="exec $SHELL"
 alias c="clear"
 
 # git
-alias gasp="git aa && git stash && git fetch && git rebase origin/master && git stash pop"
 alias gf="git fetch"
-alias gr="git rebase origin/master"
-alias gpo="git push origin master"
 
 # vim key bindings
 set -o vi
@@ -45,3 +42,6 @@ alias npmenv="source .env && npm start"
 
 # Open iOS simulator
 alias simulator="open /Applications/Xcode.app/Contents/Developer/Applications/iOS\ Simulator.app"
+
+# vagrant
+alias vgo="vagrant up && vagrant ssh"
