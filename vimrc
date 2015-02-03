@@ -35,6 +35,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'mileszs/ack.vim'
 Bundle 'ggreer/the_silver_searcher'
 Bundle 'rking/ag.vim'
+Bundle 'christoomey/vim-tmux-navigator'
 
 " utilities
 Bundle 'sjl/gundo.vim'

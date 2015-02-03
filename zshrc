@@ -21,10 +21,7 @@ alias es="exec $SHELL"
 alias c="clear"
 
 # git
-alias gasp="git aa && git stash && git fetch && git rebase origin/master && git stash pop"
 alias gf="git fetch"
-alias gr="git rebase origin/master"
-alias gpo="git push origin master"
 
 # vim key bindings
 set -o vi
@@ -37,14 +34,14 @@ bindkey -M vicmd '?' history-incremental-search-backward
 bindkey '^p' history-substring-search-up
 bindkey '^n' history-substring-search-down
 
-# Alias for postgres and redis startup
-alias dss="memcached -d && pg_ctl start -D /usr/local/var/postgres && redis-server /usr/local/etc/redis.conf"
-
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-# Start rails server
-alias rs="rails server"
+# Source env and npm server
+alias npmenv="source .env && npm start"
 
-# Python - default to Python 3
-alias python="python3"
+# Open iOS simulator
+alias simulator="open /Applications/Xcode.app/Contents/Developer/Applications/iOS\ Simulator.app"
+
+# vagrant
+alias vgo="vagrant up && vagrant ssh"
