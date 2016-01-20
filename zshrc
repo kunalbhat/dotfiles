@@ -26,9 +26,6 @@ alias gf="git fetch"
 # vim key bindings
 set -o vi
 
-# bundler
-alias be="bundle exec"
-
 # history search bindings
 bindkey -M vicmd '?' history-incremental-search-backward
 bindkey '^p' history-substring-search-up
