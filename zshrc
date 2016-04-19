@@ -12,6 +12,9 @@ source $ZSH/oh-my-zsh.sh
 # grunt
 export PATH=/usr/local/share/npm/bin:$PATH
 
+# rbenv
+export PATH=$HOME/.rbenv/bin:$PATH
+
 # foreman
 alias fs="foreman start"
 
