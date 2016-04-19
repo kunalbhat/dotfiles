@@ -42,3 +42,6 @@ alias simulator="open /Applications/Xcode.app/Contents/Developer/Applications/iO
 
 # vagrant
 alias vgo="vagrant up && vagrant ssh"
+
+# postgres
+PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH:$PATH"
