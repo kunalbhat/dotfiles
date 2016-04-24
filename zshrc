@@ -48,3 +48,6 @@ alias vgo="vagrant up && vagrant ssh"
 
 # postgres
 PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH:$PATH"
+
+# brew ops
+alias brewup="brew update && brew upgrade && brew cleanup"
