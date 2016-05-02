@@ -87,12 +87,6 @@ let g:ycm_key_list_previous_completion = ['<c-p>']
 
 let mapleader=" "
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Colorscheme
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-syntax on
-colorscheme Tomorrow-Night
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Force hamstache syntax highlighting
@@ -143,7 +137,7 @@ set directory=~/.vim/tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
 syntax on
 set background=dark
-colorscheme Tomorrow-Night
+colorscheme PaperColor
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
