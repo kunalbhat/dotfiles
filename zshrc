@@ -53,6 +53,4 @@ PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH:$PATH"
 alias brewup="brew update && brew upgrade && brew cleanup"
 
 # grab paypal real-time quote
-pypl() {
-  curl -s http://finance.yahoo.com/q\?s\=PYPL | grep time_rtq_ticker | sed -n 's/.*_pypl">\([0-9][0-9].[0-9][0-9]\)<\/.*$/\1/p'
-}
+pypl() { curl -s 'http://download.finance.yahoo.com/d/quotes.csv?s=pypl&f=l1c1' }
