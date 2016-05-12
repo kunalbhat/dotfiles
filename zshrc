@@ -51,3 +51,8 @@ PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH:$PATH"
 
 # brew ops
 alias brewup="brew update && brew upgrade && brew cleanup"
+
+# grab paypal real-time quote
+pypl() {
+    curl -s http://finance.yahoo.com/q\?s\=PYPL | nokogiri -e 'puts $_.search('\''.time_rtq_ticker span'\'').text'
+}
