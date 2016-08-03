@@ -8,20 +8,10 @@ ZSH_THEME="robbyrussell"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-
-# grunt
-export PATH=/usr/local/share/npm/bin:$PATH
+source $HOME/.zshenv
 
 # rbenv
 export PATH=$HOME/.rbenv/bin:$PATH
-
-# foreman
-alias fs="foreman start"
-
-# terminal
-alias x="exit"
-alias es="exec $SHELL"
-alias c="clear"
 
 # git
 alias gf="git fetch"
@@ -37,20 +27,8 @@ bindkey '^n' history-substring-search-down
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-# Source env and npm server
-alias npmenv="source .env && npm start"
-
-# Open iOS simulator
-alias simulator="open /Applications/Xcode.app/Contents/Developer/Applications/iOS\ Simulator.app"
-
-# vagrant
-alias vgo="vagrant up && vagrant ssh"
-
 # postgres
 PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH:$PATH"
 
 # brew ops
 alias brewup="brew update && brew upgrade && brew cleanup"
-
-# grab paypal real-time quote
-pypl() { curl -s 'http://download.finance.yahoo.com/d/quotes.csv?s=pypl&f=l1c1' }
