@@ -62,6 +62,7 @@ Bundle 'hdima/python-syntax'
 Bundle 'StanAngeloff/php.vim'
 Bundle 'lambdatoast/elm.vim'
 Bundle 'digitaltoad/vim-jade'
+Bundle 'junegunn/vim-emoji'
 
 filetype indent plugin on
 
@@ -135,9 +136,10 @@ set directory=~/.vim/tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 " Color Scheme
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-syntax on
+syntax enable
+set t_Co=256
+colorscheme OceanicNext
 set background=dark
-colorscheme PaperColor
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -314,6 +316,12 @@ nnoremap <leader>vi :vs $MYVIMRC<CR>
 
 " Remove any trailing whitespace
 :nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Vim Emoji
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set completefunc=emoji#complete
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Testing functions borrowed from Gary Berhardt
